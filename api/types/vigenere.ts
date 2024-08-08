@@ -34,9 +34,9 @@ function findOffset(letter: string) {
   return charCode % 26;
 }
 
-let phrase: string = "PhillyDev";
-phrase = "l'g d phvravel cro'ui d fhfrqvol";
-let key: string = "dude";
+let phrase: string = 'PhillyDev';
+phrase = 'l\'g d phvravel cro\'ui d fhfrqvol';
+let key: string = 'dude';
 
 let result: string = vigenereCipher(phrase, key, false);
 console.log(phrase, result);

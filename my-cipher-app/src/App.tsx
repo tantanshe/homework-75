@@ -23,7 +23,7 @@ const App = () => {
 
   const handleEncode = () => {
     if (password && standardText) {
-      dispatch(encodeMessage({ message: standardText, password }));
+      dispatch(encodeMessage({message: standardText, password}));
     } else {
       alert('Please enter both a message and a password');
     }
@@ -31,7 +31,7 @@ const App = () => {
 
   const handleDecode = () => {
     if (password && encodedText) {
-      dispatch(decodeMessage({ message: encodedText, password }));
+      dispatch(decodeMessage({message: encodedText, password}));
     } else {
       alert('Please enter both a message and a password');
     }
